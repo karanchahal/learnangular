@@ -1,15 +1,19 @@
-<html ng-app="myApp">
-	<head>
-		<title>Form Validation</title>
-		 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-	</head>
-	<body>
-			<div>
-				<input type="text" ng-model="YourName" placeholder="Enter your name here!">
-				<h1>Hello, {{YourName}}</h1>
-			</div>
-		
+<html ng-app="app">
+
+ 
+   <head>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+     <script src = "https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+<script src="app.js"></script>
 
 
-	</body>
+   </head>
+
+<body >
+
+		<ui-view></ui-view>
+
+
+</body>
+
 </html>
